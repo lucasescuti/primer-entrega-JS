@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@900&family=Oswald&family=Poppins:wght@100&family=Roboto:ital,wght@0,300;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url(animate.css);
+
+
+
+
+/* Nav */
+
+.navbar {   
+    height: 120px;
+    background-image: linear-gradient(160deg, #acc90a 0%, #06921d 100%);
+    border-bottom: solid 1px #adb5bd 0, 0, 0; }
+
+.navbar .navbar-brand {
+    height: 150px; 
+}
+
+#tituloNav{
+    font-family: koulen;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.navbar .navbar-brand a {
+    color: white;
+    font-weight: bold;
+    font-family: koulen;
+    font-size: 15px; 
+}
+
+
+.navbar #navbarNav a {
+    font-family: koulen;
+    color: black; 
+}
+
+.navbar #navbarNav a:hover {
+    color: #ffffff; 
+}
+
+.navbar #navbarNav ul {
+    margin: 1rem 1rem 0rem;
+    padding: 1rem 0 0;
+ }
+
+.navbar #navbarNav li {
+          margin: 0 10px;
+ }
+
+
+
+/* Grid Productos */
+
+.tituloMain{
+    font-family: koulen;
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.tituloMain h1{
+    font-size: 30px;
+}
+
+.tituloCard{
+    font-family: koulen;
+    text-align: center;
+    font-size: 15px;    
+}
+
+
+.padreProductos{     
+    display: grid;
+    width: 50%;
+    height: 800px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: "foto1 foto2"
+                         "foto3 foto4"
+                         "foto5 foto6"
+                         "foto7 foto8"
+                         "foto9 foto10";
+    justify-items: center;    
+
+}
+
+.producto1{  
+    grid-area: foto1;
+}
+.producto2{    
+    grid-area: foto2;
+}
+.producto3{      
+    grid-area: foto3;
+}
+.producto4{    
+    grid-area: foto4;
+}
+.producto5{    
+    grid-area: foto5;
+}
+.producto6{  
+    grid-area: foto6;
+}
+.producto7{    
+    grid-area: foto7;
+}
+.producto8{    
+    grid-area: foto8;
+}
+.producto9{
+    grid-area: foto9;
+}
+.producto10{    
+    grid-area: foto10;
+}
+
+
+/* Footer */
+
+.footer__pags {
+    display: flex;
+    justify-content: space-around;    
+    background-image: linear-gradient(160deg, #acc90a 0%, #06921d 100%);
+    height: 150px;    
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0%;
+    color: rgb(0, 0, 0); 
+}
+.footer__pags .footer__titulos {
+    font-family: koulen;
+    color: rgb(0, 0, 0);   
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer__pags .footer__titulos:hover {
+    color: #ffffff;
+}
+
+.footer__pags .footer__parrafos {
+    color: rgb(0, 0, 0);
+    opacity: 75%;
+    font-family: koulen;
+    font-weight: none;
+    text-align: center;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%; 
+}
+.footer__pags .powered {
+    margin-top: 2rem;
+    opacity: 70%;
+    font-family: koulen;
+}
+
+.footer__pags .footer__iconos {
+    margin-top: 3rem;
+    font-size: 35px;
+    padding: 1rem;
+    opacity: 80%; 
+}
+
+.footer__pags .oficinas {
+    display: block;
+    height: 50%; 
+}
+
+.footer__pags .bi-instagram {
+    transition: all;
+}
+
+.footer__pags .bi-facebook {
+    transition: all;
+}
+
+.footer__pags .bi-facebook:hover {
+    color: #0505be;
+}
+
+.footer__pags .bi-instagram:hover {
+    color: #e64761;
+}
+.footer__pags a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {   
+        height: 250px;
+        background-image: linear-gradient(160deg, #acc90a 0%, #06921d 100%);
+        border-bottom: solid 1px #adb5bd 0, 0, 0; }
+
+    .navbar-nav {
+        flex-direction:row
+
+    }
+
+    }
+    
